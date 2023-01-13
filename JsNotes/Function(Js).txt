@@ -1,0 +1,31 @@
+ways of function declaration
+-normal function declaration
+-function expression(anonymous function)
+-create them directly as an argument to another function or method (most common for anonymous function).	
+
+Arrow function
+-shorthand to make anonymous functions
+-syntax can change depending on
+1.number of arguments required
+2. Whether we like an implict return
+
+For no 1,
+if supply one argument, can remove parenthesis
+if no arguments, substitute the parathesis with underscore
+
+eg for no 1,
+const zeroArgs = () => {/* do something */}
+const zeroWithUnderscore = _ => {/* do something */}
+const oneArg = arg1 => {/* do something */}
+const oneArgWithParenthesis = (arg1) => {/* do something */}
+const manyArgs = (arg1, arg2) => {/* do something */}
+
+ Arrow functions, by default, automatically create a return keyword if the code only takes up one line, and is not enclosed in a block.
+
+These two are the same.
+const sum1 = (num1, num2) => num1 + num2
+const sum2 = (num1, num2) => { return num1 + num2 }
+
+
+The lexical this
+-this value changes depending on how it is called. 

@@ -1,0 +1,13 @@
+Convert any values to boolean
+Two methods
+1.Boolean();
+2.!!
+
+How !! works
+first ! converts to boolean  and since default value of boolean is false,second ! is used to convert the default value(false) to true
+
+'false' and false are not same
+
+!!'false' is true since it is a string
+!!false is false since it is a falsy value
+

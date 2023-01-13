@@ -1,0 +1,21 @@
+images take the original width if we don't define the width;
+
+max-width  can be used to not exceed the image from specific width.
+
+if margin-right: auto , all the content will be pushed to left sinced margin is applied to the right side. 
+
+
+universal selector (*)
+=========================================================
+
+
+- It selects everything except 
+* selector can be used to reset things.
+
+attributes like marign:top: can be redundant since we have collapsing margins.
+
+margin 0 and padding 0 can be used to reset things.
+
+direct children selector (>)
+=====================================================
+
